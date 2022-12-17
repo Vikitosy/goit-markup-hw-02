@@ -10,6 +10,7 @@
   --secondary-font-family: 'Raleway';
   --main-letter-spacing: 0.03em;
   --color-bg-project: #eee;
+  --main-font-size: 14px;
 }
 
 .link {
@@ -48,6 +49,10 @@ body {
 }
 .contacts {
   color: var(--color-main-text);
+  font-weight: 500;
+  font-size: var(--main-font-size);
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
 }
 .contacts:hover,
 .contacts:focus {
@@ -86,16 +91,18 @@ body {
   margin: -1px;
 }
 .benefit-title {
+  font-size: var(--main-font-size);
   line-height: calc(16 / 14);
   text-transform: uppercase;
 }
 .benefit-description {
+  font-size: var(--main-font-size);
   line-height: calc(24 / 14);
   color: var(--color-main-text);
 }
 .about-title {
   font-size: 36px;
-  line-height: 42px;
+  line-height: calc(42 / 36);
   color: var(--color-primary);
 }
 .teams-section {
